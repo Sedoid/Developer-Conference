@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding:  0px;
+}
+
+main{
+	margin: 0px;
+	padding:  0px;
+	height: 100vh;
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+/* */
+header{
+	background-color: #194673;
+	margin: 0px;
+	padding:  0px;
+	height: 35.5%;
+	
+}
+
+header > section{
+	margin: 0px;
+	padding:  0px;
+	width: 100%;
+	box-sizing: border-box;;		
+}
+header div{
+	display: inline-block;
+}
+.top {
+	height: 48%;
+	width: 1000px;
+	margin:0  auto;
+
+	
+}
+
+.version{
+	color: white;
+	font-family: arial;
+	padding-bottom: 0.5em;
+
+}
+
+
+
+.nav ul{
+	position: relative;
+    left: 17px;
+   
+	 font-family: 'Roboto Mono', monospace;
+}
+
+	.nav ul li, footer div ul li{
+
+			list-style: none;
+			display: inline-block;
+           
+			margin-right: 1.2em;
+		}
+
+	.nav ul li a, footer div ul li{
+			color: white;
+            text-decoration: none;
+            
+
+		}
+
+		#event_name{
+			font-family: verdana;
+			font-size: 3em;
+			color: white;
+			border-top: 5px solid orange;
+			padding: 6px 0;
+		}
+
+		.spacer{
+			width: 23%;		
+			height: 2em;
+		}
+
+		
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+
+a:hover, a:active{
+	color: #33bdb8;
+}
+.register{
+	padding: 1em;
+	border: 2px solid #33bdb8;
+	border-radius: 5px;
+	position: relative;
+	top: 1em;
+
+}
+
+
+
+
+
+.bottom{
+	padding-top: 1.8%;
+	color: white;
+	height: 52%;
+	background-color: #68948f;
+	background-image: linear-gradient(to right, #68948f 40%, #f5f1d7);
+
+}
+
+ .bottom p{
+ 	width: 65%;
+ 	margin: 0 auto;
+ 	
+ }
+
+
+ #objects{
+	margin: 0px;
+	padding:  0px auto;	
+	box-sizing: border-box;
+	height: 47%;
+	width: 100%;
+    padding-top: 2.5%;
+   
+
+}
+
+
+
+
+footer{
+    width:100%;
+    position:absolute;
+    bottom: 0;
+	background-image: linear-gradient(to right, #68948f 40%, #f5f1d7);
+	height:17.5%;
+}
+
+footer div{
+	box-size: border-box;
+	width: 1000px;
+	margin: 0px auto;
+	padding: 20px 0;
+}
+
+footer div p{
+	color: #ccc;
+	position: relative;
+	top: 10px;
+} 
+footer div li{
+    float: right;
+   
+}
+footer a{
+	margin-right: 1em;
+}
+
