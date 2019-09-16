@@ -1,13 +1,21 @@
+a:hover{
+	color:  #33bdb8;
+}
 *{
 	margin: 0px;
 	padding:  0px;
+}
+
+body{
+	max-width: 100%;
+	box-sizing: border-box;
 }
 
 main{
 	margin: 0px;
 	padding:  0px;
 	/* height: 100vh; */
-	width: 100vw;
+	max-width: 100vw;
 	box-sizing: border-box;
 }
 
@@ -23,16 +31,20 @@ header{
 header > section{
 	margin: 0px;
 	padding:  0px;
-	width: 100%;
-	box-sizing: border-box;		
+	max-width: 100%;
+	box-sizing: border-box;	
+
 }
 header div{
 	display: inline-block;
 }
 .top {
-	height: 48%;
+	
 	width: 1000px;
 	margin:0  auto;
+	
+	padding-bottom:10px;
+
 
 	
 }
@@ -91,7 +103,7 @@ a{
 
 
 
-a:hover, a:active{
+li a:hover, a:active{
 	color: #33bdb8;
 }
 .register{
@@ -104,7 +116,9 @@ a:hover, a:active{
 }
 
 
-
+ul li a:hover, ul li a:active{
+	color:  #33bdb8;
+}
 
 
 .bottom{
@@ -113,12 +127,12 @@ a:hover, a:active{
 	/* height: 52%; */
 	background-color: #68948f;
 	background-image: linear-gradient(to right, #68948f 40%, #f5f1d7);
-	padding-bottom: 10px;
+	padding-bottom: 35px;
 
 }
 
  .bottom p{
- 	width: 67%;
+ 	width: 50%;
  	margin: 0 auto;
  	
  }
@@ -146,11 +160,12 @@ footer{
     position: relative;
     bottom: 0;
 	background-image: linear-gradient(to right, #68948f 40%, #f5f1d7);
+	padding-bottom:40px; 
 
 }
 
 footer div{
-	box-size: border-box;
+	box-sizing: border-box;
 	width: 1000px;
 	margin: 0px auto;
 	padding-top: 10px;

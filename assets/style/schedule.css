@@ -1,0 +1,44 @@
+
+ table{
+    width: 1000px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-collapse: collapse; 
+   
+    
+}
+
+/* table tr:first-child{
+  
+     background-color: #ccc;
+     font-weight: bold;
+     text-align: center;
+} */
+th, td {
+    text-align: left;
+    padding: 10px 0px 10px 10px;
+}
+
+th {
+    background-color: #ccc;
+}
+
+
+tr{
+    padding: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+tr td:first-child{
+    font-weight: bold;
+}
+
+td{
+    padding:10px;
+    margin-left: 4px;
+    text-align: left;
+} 
+
+/* table:last-child {
+    border: 1px solid red;
+} */

@@ -1,4 +1,7 @@
 
+#objects{
+	padding-top: 6%; 
+}
 #objects div {
 	padding-top: 0%;
 	height: 90%;
@@ -57,4 +60,12 @@ article p{
 	/*width: 90%;*/
 	margin: 0 auto;
 }
+
+footer{
+	position: absolute;
+	bottom: 0;
+	 
+	
+}
+
 
