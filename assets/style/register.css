@@ -5,12 +5,10 @@
 
 
 #objects .content{
-   
+  
     width: 1000px;
     margin:0px auto;
-    height: 300px;
   
-    
 }
 
 #purchase_text{
@@ -62,6 +60,7 @@ input[type=submit]{
    background-color:green;
    width: 100px;
    border-radius: 5px;
+   border: 0px;
 }
 
 #register_form select{
@@ -72,6 +71,7 @@ input[type=submit]{
     width: 96%;
     height: 35px;
     margin-bottom: 5px;
+    border-radius: 5px;
 }
 
 textarea{

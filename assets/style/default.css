@@ -6,7 +6,7 @@
 main{
 	margin: 0px;
 	padding:  0px;
-	height: 100vh;
+	/* height: 100vh; */
 	width: 100vw;
 	box-sizing: border-box;
 }
@@ -24,7 +24,7 @@ header > section{
 	margin: 0px;
 	padding:  0px;
 	width: 100%;
-	box-sizing: border-box;;		
+	box-sizing: border-box;		
 }
 header div{
 	display: inline-block;
@@ -40,7 +40,7 @@ header div{
 .version{
 	color: white;
 	font-family: arial;
-	padding-bottom: 0.5em;
+	padding-bottom: 0.4em;
 
 }
 
@@ -89,6 +89,8 @@ a{
 }
 
 
+
+
 a:hover, a:active{
 	color: #33bdb8;
 }
@@ -108,26 +110,29 @@ a:hover, a:active{
 .bottom{
 	padding-top: 1.8%;
 	color: white;
-	height: 52%;
+	/* height: 52%; */
 	background-color: #68948f;
 	background-image: linear-gradient(to right, #68948f 40%, #f5f1d7);
+	padding-bottom: 10px;
 
 }
 
  .bottom p{
- 	width: 65%;
+ 	width: 67%;
  	margin: 0 auto;
  	
  }
 
 
  #objects{
+	 position: relative;
 	margin: 0px;
 	padding:  0px auto;	
 	box-sizing: border-box;
 	height: 47%;
 	width: 100%;
-    padding-top: 2.5%;
+	padding-top: 2.5%;
+	margin-bottom: 2em;
    
 
 }
@@ -136,26 +141,34 @@ a:hover, a:active{
 
 
 footer{
+	box-sizing: border-box;
     width:100%;
-    position:absolute;
+    position: relative;
     bottom: 0;
 	background-image: linear-gradient(to right, #68948f 40%, #f5f1d7);
-	height:17.5%;
+
 }
 
 footer div{
 	box-size: border-box;
 	width: 1000px;
 	margin: 0px auto;
-	padding: 20px 0;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 
 footer div p{
 	color: #ccc;
-	position: relative;
-	top: 10px;
+	 position: relative;
+	top: 1em; 
 } 
+
+footer div ul{
+	position: relative;
+	left: 40px;
+}
 footer div li{
+
     float: right;
    
 }

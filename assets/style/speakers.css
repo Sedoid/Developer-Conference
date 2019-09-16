@@ -1,0 +1,65 @@
+#objects{
+    margin-bottom: 0px;
+}
+#objects > div{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 2.5%;
+    width: 950px;
+    margin: 0 auto;
+    /* border: 2px solid green; */
+    position: relative;
+    overflow: contain;
+   
+}
+
+#profile{
+
+    display: inline-block;
+    position: relative;
+    margin-bottom: 0px;
+    border: 2px solid #ccc;
+    width: 200px;
+    height: 117px;
+ 
+}
+
+
+
+#profile a{
+  
+    color:dodgerblue;
+    margin: 0px;
+    padding: 0px;
+}
+
+#pic{
+   
+   background-size: cover;
+   background-position: center top;
+     position: relative;
+    bottom: 75px;
+    border-radius: 49%;
+    width: 100px;
+    height:100px;
+    /* background-color: black; */
+    margin: 0px;
+    padding:0px;
+    border: 1px solid #ccc;
+}
+
+#text{
+    position: relative;
+    bottom:80px;
+    /* border:1px solid orange; */
+}
+
+#content{
+   position: relative;
+    display: inline-block;
+    position: relative;
+    width: 650px;
+
+    /* border:2px solid brown; */
+    margin-right: 3.3em;
+}
